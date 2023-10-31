@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB447A152AC6444400E8DB65 /* WeatherDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB447A142AC6444400E8DB65 /* WeatherDataSource.swift */; };
 		DB44F6CB2AC5D9F400E9D59A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6CA2AC5D9F400E9D59A /* AppDelegate.swift */; };
 		DB44F6CD2AC5D9F400E9D59A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6CC2AC5D9F400E9D59A /* SceneDelegate.swift */; };
-		DB44F6CF2AC5D9F400E9D59A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6CE2AC5D9F400E9D59A /* ViewController.swift */; };
-		DB44F6D22AC5D9F400E9D59A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB44F6D02AC5D9F400E9D59A /* Main.storyboard */; };
 		DB44F6D42AC5D9F900E9D59A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44F6D32AC5D9F900E9D59A /* Assets.xcassets */; };
 		DB44F6D72AC5D9F900E9D59A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB44F6D52AC5D9F900E9D59A /* LaunchScreen.storyboard */; };
 		DB44F6E22AC5D9F900E9D59A /* ViperArchitectureWeatherExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6E12AC5D9F900E9D59A /* ViperArchitectureWeatherExampleTests.swift */; };
 		DB44F6EC2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6EB2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITests.swift */; };
 		DB44F6EE2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F6ED2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITestsLaunchTests.swift */; };
+		DB44F7032AC5DAAA00E9D59A /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7022AC5DAAA00E9D59A /* WeatherViewController.swift */; };
+		DB44F7052AC5DAB700E9D59A /* WeatherInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7042AC5DAB700E9D59A /* WeatherInteractor.swift */; };
+		DB44F7072AC5DABD00E9D59A /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7062AC5DABD00E9D59A /* WeatherPresenter.swift */; };
+		DB44F7092AC5DAC300E9D59A /* WeatherEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7082AC5DAC300E9D59A /* WeatherEntity.swift */; };
+		DB44F70B2AC5DACB00E9D59A /* WeatherRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F70A2AC5DACB00E9D59A /* WeatherRouter.swift */; };
+		DB44F70D2AC5DAD700E9D59A /* WeatherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F70C2AC5DAD700E9D59A /* WeatherProtocols.swift */; };
+		DB44F70F2AC5E29400E9D59A /* WeatherNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F70E2AC5E29400E9D59A /* WeatherNetworkService.swift */; };
+		DB44F7122AC5FCDD00E9D59A /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7112AC5FCDD00E9D59A /* WeatherViewModel.swift */; };
+		DB44F7152AC5FD0C00E9D59A /* WeatherViewModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7142AC5FD0C00E9D59A /* WeatherViewModelMapper.swift */; };
+		DB44F7182AC6067300E9D59A /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44F7172AC6067300E9D59A /* WeatherTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB447A142AC6444400E8DB65 /* WeatherDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataSource.swift; sourceTree = "<group>"; };
 		DB44F6C72AC5D9F400E9D59A /* ViperArchitectureWeatherExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperArchitectureWeatherExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44F6CA2AC5D9F400E9D59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB44F6CC2AC5D9F400E9D59A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB44F6CE2AC5D9F400E9D59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB44F6D12AC5D9F400E9D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB44F6D32AC5D9F900E9D59A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB44F6D62AC5D9F900E9D59A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB44F6D82AC5D9F900E9D59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		DB44F6E72AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperArchitectureWeatherExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44F6EB2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperArchitectureWeatherExampleUITests.swift; sourceTree = "<group>"; };
 		DB44F6ED2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperArchitectureWeatherExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB44F7022AC5DAAA00E9D59A /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		DB44F7042AC5DAB700E9D59A /* WeatherInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInteractor.swift; sourceTree = "<group>"; };
+		DB44F7062AC5DABD00E9D59A /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
+		DB44F7082AC5DAC300E9D59A /* WeatherEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherEntity.swift; sourceTree = "<group>"; };
+		DB44F70A2AC5DACB00E9D59A /* WeatherRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRouter.swift; sourceTree = "<group>"; };
+		DB44F70C2AC5DAD700E9D59A /* WeatherProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProtocols.swift; sourceTree = "<group>"; };
+		DB44F70E2AC5E29400E9D59A /* WeatherNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkService.swift; sourceTree = "<group>"; };
+		DB44F7112AC5FCDD00E9D59A /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		DB44F7142AC5FD0C00E9D59A /* WeatherViewModelMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelMapper.swift; sourceTree = "<group>"; };
+		DB44F7172AC6067300E9D59A /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB447A132AC6443500E8DB65 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				DB447A142AC6444400E8DB65 /* WeatherDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		DB44F6BE2AC5D9F400E9D59A = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +125,13 @@
 		DB44F6C92AC5D9F400E9D59A /* ViperArchitectureWeatherExample */ = {
 			isa = PBXGroup;
 			children = (
-				DB44F6CA2AC5D9F400E9D59A /* AppDelegate.swift */,
-				DB44F6CC2AC5D9F400E9D59A /* SceneDelegate.swift */,
-				DB44F6CE2AC5D9F400E9D59A /* ViewController.swift */,
-				DB44F6D02AC5D9F400E9D59A /* Main.storyboard */,
-				DB44F6D32AC5D9F900E9D59A /* Assets.xcassets */,
-				DB44F6D52AC5D9F900E9D59A /* LaunchScreen.storyboard */,
+				DB44F7002AC5DA8C00E9D59A /* Protocols */,
+				DB44F6FF2AC5DA8600E9D59A /* Services */,
+				DB44F6FE2AC5DA5500E9D59A /* Common */,
+				DB44F6FD2AC5DA4F00E9D59A /* Extensions */,
+				DB44F6FC2AC5DA4800E9D59A /* Modules */,
+				DB44F6FA2AC5DA1600E9D59A /* Application */,
+				DB44F6FB2AC5DA2600E9D59A /* Resources */,
 				DB44F6D82AC5D9F900E9D59A /* Info.plist */,
 			);
 			path = ViperArchitectureWeatherExample;
@@ -125,6 +152,102 @@
 				DB44F6ED2AC5D9F900E9D59A /* ViperArchitectureWeatherExampleUITestsLaunchTests.swift */,
 			);
 			path = ViperArchitectureWeatherExampleUITests;
+			sourceTree = "<group>";
+		};
+		DB44F6FA2AC5DA1600E9D59A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6CA2AC5D9F400E9D59A /* AppDelegate.swift */,
+				DB44F6CC2AC5D9F400E9D59A /* SceneDelegate.swift */,
+				DB44F6D52AC5D9F900E9D59A /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DB44F6FB2AC5DA2600E9D59A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F6D32AC5D9F900E9D59A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB44F6FC2AC5DA4800E9D59A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F7012AC5DA9300E9D59A /* MainWeather */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DB44F6FD2AC5DA4F00E9D59A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DB44F6FE2AC5DA5500E9D59A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB44F6FF2AC5DA8600E9D59A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F70E2AC5E29400E9D59A /* WeatherNetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DB44F7002AC5DA8C00E9D59A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DB44F7012AC5DA9300E9D59A /* MainWeather */ = {
+			isa = PBXGroup;
+			children = (
+				DB447A132AC6443500E8DB65 /* DataSource */,
+				DB44F7162AC6065D00E9D59A /* Subviews */,
+				DB44F7132AC5FCFA00E9D59A /* Mappers */,
+				DB44F7102AC5FCCD00E9D59A /* ViewModels */,
+				DB44F7022AC5DAAA00E9D59A /* WeatherViewController.swift */,
+				DB44F7042AC5DAB700E9D59A /* WeatherInteractor.swift */,
+				DB44F7062AC5DABD00E9D59A /* WeatherPresenter.swift */,
+				DB44F7082AC5DAC300E9D59A /* WeatherEntity.swift */,
+				DB44F70A2AC5DACB00E9D59A /* WeatherRouter.swift */,
+				DB44F70C2AC5DAD700E9D59A /* WeatherProtocols.swift */,
+			);
+			path = MainWeather;
+			sourceTree = "<group>";
+		};
+		DB44F7102AC5FCCD00E9D59A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F7112AC5FCDD00E9D59A /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DB44F7132AC5FCFA00E9D59A /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F7142AC5FD0C00E9D59A /* WeatherViewModelMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		DB44F7162AC6065D00E9D59A /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				DB44F7172AC6067300E9D59A /* WeatherTableViewCell.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +356,6 @@
 			files = (
 				DB44F6D72AC5D9F900E9D59A /* LaunchScreen.storyboard in Resources */,
 				DB44F6D42AC5D9F900E9D59A /* Assets.xcassets in Resources */,
-				DB44F6D22AC5D9F400E9D59A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +380,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB44F6CF2AC5D9F400E9D59A /* ViewController.swift in Sources */,
+				DB44F7182AC6067300E9D59A /* WeatherTableViewCell.swift in Sources */,
+				DB44F70F2AC5E29400E9D59A /* WeatherNetworkService.swift in Sources */,
+				DB44F7072AC5DABD00E9D59A /* WeatherPresenter.swift in Sources */,
+				DB44F7092AC5DAC300E9D59A /* WeatherEntity.swift in Sources */,
 				DB44F6CB2AC5D9F400E9D59A /* AppDelegate.swift in Sources */,
+				DB44F7052AC5DAB700E9D59A /* WeatherInteractor.swift in Sources */,
+				DB447A152AC6444400E8DB65 /* WeatherDataSource.swift in Sources */,
+				DB44F7122AC5FCDD00E9D59A /* WeatherViewModel.swift in Sources */,
+				DB44F7152AC5FD0C00E9D59A /* WeatherViewModelMapper.swift in Sources */,
+				DB44F70B2AC5DACB00E9D59A /* WeatherRouter.swift in Sources */,
+				DB44F7032AC5DAAA00E9D59A /* WeatherViewController.swift in Sources */,
+				DB44F70D2AC5DAD700E9D59A /* WeatherProtocols.swift in Sources */,
 				DB44F6CD2AC5D9F400E9D59A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +429,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB44F6D02AC5D9F400E9D59A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB44F6D12AC5D9F400E9D59A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB44F6D52AC5D9F900E9D59A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +566,6 @@
 				INFOPLIST_FILE = ViperArchitectureWeatherExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +593,6 @@
 				INFOPLIST_FILE = ViperArchitectureWeatherExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
